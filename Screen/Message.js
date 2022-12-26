@@ -81,7 +81,7 @@ const Message = ({ route }) => {
                 {...props}
                 wrapperStyle={{
                   right: {
-                    backgroundColor: "#FFA500",
+                    backgroundColor: "#df2349",
                   },
                   left: {
                     backgroundColor: "white",

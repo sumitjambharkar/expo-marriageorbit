@@ -1,0 +1,2706 @@
+{
+    "religion": [
+        {
+            "id": "1",
+            "value": "Hindu",
+            "castealias": "Caste",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "1",
+                    "value": "Ad Dharmi"
+                },
+                {
+                    "id": "2",
+                    "value": "Adi Andhra"
+                },
+                {
+                    "id": "3",
+                    "value": "Adi Dravida"
+                },
+                {
+                    "id": "4",
+                    "value": "Adi-karnataka"
+                },
+                {
+                    "id": "5",
+                    "value": "Agarwal"
+                },
+                {
+                    "id": "6",
+                    "value": "Agnikula Kshatriya"
+                },
+                {
+                    "id": "7",
+                    "value": "Agri"
+                },
+                {
+                    "id": "8",
+                    "value": "Ahir Shimpi"
+                },
+                {
+                    "id": "9",
+                    "value": "Ahom"
+                },
+                {
+                    "id": "10",
+                    "value": "Ambalavasi"
+                },
+                {
+                    "id": "11",
+                    "value": "Arekatica"
+                },
+                {
+                    "id": "12",
+                    "value": "Arora"
+                },
+                {
+                    "id": "13",
+                    "value": "Arunthathiyar"
+                },
+                {
+                    "id": "14",
+                    "value": "Arya Vysya"
+                },
+                {
+                    "id": "15",
+                    "value": "Ayyaraka"
+                },
+                {
+                    "id": "16",
+                    "value": "Badaga"
+                },
+                {
+                    "id": "17",
+                    "value": "Bagdi"
+                },
+                {
+                    "id": "18",
+                    "value": "Baidya"
+                },
+                {
+                    "id": "19",
+                    "value": "Baishnab"
+                },
+                {
+                    "id": "20",
+                    "value": "Baishya"
+                },
+                {
+                    "id": "21",
+                    "value": "Bajantri"
+                },
+                {
+                    "id": "22",
+                    "value": "Balija"
+                },
+                {
+                    "id": "23",
+                    "value": "Banayat Oriya"
+                },
+                {
+                    "id": "24",
+                    "value": "Banik"
+                },
+                {
+                    "id": "25",
+                    "value": "Baniya"
+                },
+                {
+                    "id": "26",
+                    "value": "Baniya - Bania"
+                },
+                {
+                    "id": "27",
+                    "value": "Baniya - Kumuti"
+                },
+                {
+                    "id": "28",
+                    "value": "Banjara"
+                },
+                {
+                    "id": "29",
+                    "value": "Barai"
+                },
+                {
+                    "id": "30",
+                    "value": "Bari"
+                },
+                {
+                    "id": "31",
+                    "value": "Baria"
+                },
+                {
+                    "id": "32",
+                    "value": "Barujibi"
+                },
+                {
+                    "id": "33",
+                    "value": "Besta"
+                },
+                {
+                    "id": "34",
+                    "value": "Bhandari"
+                },
+                {
+                    "id": "35",
+                    "value": "Bhatia"
+                },
+                {
+                    "id": "36",
+                    "value": "Bhatraju"
+                },
+                {
+                    "id": "37",
+                    "value": "Bhavasar Kshatriya"
+                },
+                {
+                    "id": "38",
+                    "value": "Bhoi"
+                },
+                {
+                    "id": "39",
+                    "value": "Bhovi"
+                },
+                {
+                    "id": "40",
+                    "value": "Bhoyar"
+                },
+                {
+                    "id": "41",
+                    "value": "Billava"
+                },
+                {
+                    "id": "42",
+                    "value": "Bishnoi/Vishnoi"
+                },
+                {
+                    "id": "43",
+                    "value": "Bondili"
+                },
+                {
+                    "id": "44",
+                    "value": "Boyer"
+                },
+                {
+                    "id": "45",
+                    "value": "Brahmbatt"
+                },
+                {
+                    "id": "46",
+                    "value": "Brahmin"
+                },
+                {
+                    "id": "47",
+                    "value": "Brahmin - Anavil"
+                },
+                {
+                    "id": "48",
+                    "value": "Brahmin - Audichya"
+                },
+                {
+                    "id": "49",
+                    "value": "Brahmin - Barendra"
+                },
+                {
+                    "id": "50",
+                    "value": "Brahmin - Bhatt"
+                },
+                {
+                    "id": "51",
+                    "value": "Brahmin - Bhumihar"
+                },
+                {
+                    "id": "52",
+                    "value": "Brahmin - Daivadnya"
+                },
+                {
+                    "id": "53",
+                    "value": "Brahmin - Danua"
+                },
+                {
+                    "id": "54",
+                    "value": "Brahmin - Deshastha"
+                },
+                {
+                    "id": "55",
+                    "value": "Brahmin - Dhiman"
+                },
+                {
+                    "id": "56",
+                    "value": "Brahmin - Dravida"
+                },
+                {
+                    "id": "57",
+                    "value": "Brahmin - Embrandiri"
+                },
+                {
+                    "id": "58",
+                    "value": "Brahmin - Garhwali"
+                },
+                {
+                    "id": "59",
+                    "value": "Brahmin - Gaur"
+                },
+                {
+                    "id": "60",
+                    "value": "Brahmin - Goswami"
+                },
+                {
+                    "id": "61",
+                    "value": "Brahmin - Gujar Gaur"
+                },
+                {
+                    "id": "62",
+                    "value": "Brahmin - Gurukkal"
+                },
+                {
+                    "id": "63",
+                    "value": "Brahmin - Halua"
+                },
+                {
+                    "id": "64",
+                    "value": "Brahmin - Havyaka"
+                },
+                {
+                    "id": "65",
+                    "value": "Brahmin - Hoysala"
+                },
+                {
+                    "id": "66",
+                    "value": "Brahmin - Iyengar"
+                },
+                {
+                    "id": "67",
+                    "value": "Brahmin - Iyer"
+                },
+                {
+                    "id": "68",
+                    "value": "Brahmin - Jangid"
+                },
+                {
+                    "id": "69",
+                    "value": "Brahmin - Jhadua"
+                },
+                {
+                    "id": "70",
+                    "value": "Brahmin - Jyotish"
+                },
+                {
+                    "id": "71",
+                    "value": "Brahmin - Kanyakubj"
+                },
+                {
+                    "id": "72",
+                    "value": "Brahmin - Karhade"
+                },
+                {
+                    "id": "73",
+                    "value": "Brahmin - Khandelwal"
+                },
+                {
+                    "id": "74",
+                    "value": "Brahmin - Kokanastha"
+                },
+                {
+                    "id": "75",
+                    "value": "Brahmin - Kota"
+                },
+                {
+                    "id": "76",
+                    "value": "Brahmin - Kulin"
+                },
+                {
+                    "id": "77",
+                    "value": "Brahmin - Kumoani"
+                },
+                {
+                    "id": "78",
+                    "value": "Brahmin - Madhwa"
+                },
+                {
+                    "id": "79",
+                    "value": "Brahmin - Maithil"
+                },
+                {
+                    "id": "80",
+                    "value": "Brahmin - Modh"
+                },
+                {
+                    "id": "81",
+                    "value": "Brahmin - Mohyal"
+                },
+                {
+                    "id": "82",
+                    "value": "Brahmin - Nagar"
+                },
+                {
+                    "id": "83",
+                    "value": "Brahmin - Namboodiri"
+                },
+                {
+                    "id": "84",
+                    "value": "Brahmin - Narmadiya"
+                },
+                {
+                    "id": "85",
+                    "value": "Brahmin - Niyogi"
+                },
+                {
+                    "id": "86",
+                    "value": "Brahmin - Paliwal"
+                },
+                {
+                    "id": "87",
+                    "value": "Brahmin - Panda"
+                },
+                {
+                    "id": "88",
+                    "value": "Brahmin - Pandit"
+                },
+                {
+                    "id": "89",
+                    "value": "Brahmin - Pareek"
+                },
+                {
+                    "id": "90",
+                    "value": "Brahmin - Pushkarna"
+                },
+                {
+                    "id": "91",
+                    "value": "Brahmin - Rarhi"
+                },
+                {
+                    "id": "92",
+                    "value": "Brahmin - Rigvedi"
+                },
+                {
+                    "id": "93",
+                    "value": "Brahmin - Rudraj"
+                },
+                {
+                    "id": "94",
+                    "value": "Brahmin - Sakaldwipi"
+                },
+                {
+                    "id": "95",
+                    "value": "Brahmin - Sanadya"
+                },
+                {
+                    "id": "96",
+                    "value": "Brahmin - Sanketi"
+                },
+                {
+                    "id": "97",
+                    "value": "Brahmin - Saraswat"
+                },
+                {
+                    "id": "98",
+                    "value": "Brahmin - Saryuparin"
+                },
+                {
+                    "id": "99",
+                    "value": "Brahmin - Shivhalli"
+                },
+                {
+                    "id": "100",
+                    "value": "Brahmin - Shrimali"
+                },
+                {
+                    "id": "101",
+                    "value": "Brahmin - Sikhwal"
+                },
+                {
+                    "id": "102",
+                    "value": "Brahmin - Smartha"
+                },
+                {
+                    "id": "103",
+                    "value": "Brahmin - Sri Vishnava"
+                },
+                {
+                    "id": "104",
+                    "value": "Brahmin - Stanika"
+                },
+                {
+                    "id": "105",
+                    "value": "Brahmin - Tyagi"
+                },
+                {
+                    "id": "106",
+                    "value": "Brahmin - Vaidiki"
+                },
+                {
+                    "id": "107",
+                    "value": "Brahmin - Vaikhanasa"
+                },
+                {
+                    "id": "108",
+                    "value": "Brahmin - Velanadu"
+                },
+                {
+                    "id": "109",
+                    "value": "Brahmin - Vyas"
+                },
+                {
+                    "id": "110",
+                    "value": "Brajastha Maithil"
+                },
+                {
+                    "id": "111",
+                    "value": "Brajastha Maithil"
+                },
+                {
+                    "id": "112",
+                    "value": "Bunt (Shetty)"
+                },
+                {
+                    "id": "113",
+                    "value": "CKP"
+                },
+                {
+                    "id": "114",
+                    "value": "Chalawadi and Holeya"
+                },
+                {
+                    "id": "115",
+                    "value": "Chambhar"
+                },
+                {
+                    "id": "116",
+                    "value": "Chandravanshi Kahar"
+                },
+                {
+                    "id": "117",
+                    "value": "Chasa"
+                },
+                {
+                    "id": "118",
+                    "value": "Chattada Sri Vaishnava"
+                },
+                {
+                    "id": "119",
+                    "value": "Chaudary"
+                },
+                {
+                    "id": "120",
+                    "value": "Chaurasia"
+                },
+                {
+                    "id": "121",
+                    "value": "Chennadasar"
+                },
+                {
+                    "id": "122",
+                    "value": "Chettiar"
+                },
+                {
+                    "id": "123",
+                    "value": "Chhetri"
+                },
+                {
+                    "id": "124",
+                    "value": "Chippolu (Mera)"
+                },
+                {
+                    "id": "125",
+                    "value": "Coorgi"
+                },
+                {
+                    "id": "126",
+                    "value": "Devadiga"
+                },
+                {
+                    "id": "127",
+                    "value": "Devandra Kula Vellalar"
+                },
+                {
+                    "id": "128",
+                    "value": "Devang Koshthi"
+                },
+                {
+                    "id": "129",
+                    "value": "Devanga"
+                },
+                {
+                    "id": "130",
+                    "value": "Devrukhe Brahmin"
+                },
+                {
+                    "id": "131",
+                    "value": "Dhangar"
+                },
+                {
+                    "id": "132",
+                    "value": "Dheevara"
+                },
+                {
+                    "id": "133",
+                    "value": "Dhiman"
+                },
+                {
+                    "id": "134",
+                    "value": "Dhoba"
+                },
+                {
+                    "id": "135",
+                    "value": "Dhobi"
+                },
+                {
+                    "id": "136",
+                    "value": "Dhor / Kakkayya"
+                },
+                {
+                    "id": "137",
+                    "value": "Dommala"
+                },
+                {
+                    "id": "138",
+                    "value": "Dumal"
+                },
+                {
+                    "id": "139",
+                    "value": "Dusadh (Paswan)"
+                },
+                {
+                    "id": "140",
+                    "value": "Ediga"
+                },
+                {
+                    "id": "141",
+                    "value": "Ezhava"
+                },
+                {
+                    "id": "142",
+                    "value": "Ezhuthachan"
+                },
+                {
+                    "id": "143",
+                    "value": "Gabit"
+                },
+                {
+                    "id": "144",
+                    "value": "Ganda"
+                },
+                {
+                    "id": "145",
+                    "value": "Gandla"
+                },
+                {
+                    "id": "146",
+                    "value": "Ganiga"
+                },
+                {
+                    "id": "147",
+                    "value": "Garhwali"
+                },
+                {
+                    "id": "148",
+                    "value": "Gatti"
+                },
+                {
+                    "id": "149",
+                    "value": "Gavara"
+                },
+                {
+                    "id": "150",
+                    "value": "Gawali"
+                },
+                {
+                    "id": "151",
+                    "value": "Ghisadi"
+                },
+                {
+                    "id": "152",
+                    "value": "Ghumar"
+                },
+                {
+                    "id": "153",
+                    "value": "Goala"
+                },
+                {
+                    "id": "154",
+                    "value": "Goan"
+                },
+                {
+                    "id": "155",
+                    "value": "Gomantak"
+                },
+                {
+                    "id": "156",
+                    "value": "Gondhali"
+                },
+                {
+                    "id": "157",
+                    "value": "Goud"
+                },
+                {
+                    "id": "158",
+                    "value": "Gounder"
+                },
+                {
+                    "id": "159",
+                    "value": "Gowda"
+                },
+                {
+                    "id": "160",
+                    "value": "Gramani"
+                },
+                {
+                    "id": "161",
+                    "value": "Gudia"
+                },
+                {
+                    "id": "162",
+                    "value": "Gujjar"
+                },
+                {
+                    "id": "163",
+                    "value": "Gupta"
+                },
+                {
+                    "id": "164",
+                    "value": "Guptan"
+                },
+                {
+                    "id": "165",
+                    "value": "Gurav"
+                },
+                {
+                    "id": "166",
+                    "value": "Gurjar"
+                },
+                {
+                    "id": "167",
+                    "value": "Halba Koshti"
+                },
+                {
+                    "id": "168",
+                    "value": "Helava"
+                },
+                {
+                    "id": "169",
+                    "value": "Hugar (Jeer)"
+                },
+                {
+                    "id": "170",
+                    "value": "Intercaste"
+                },
+                {
+                    "id": "171",
+                    "value": "Irani"
+                },
+                {
+                    "id": "172",
+                    "value": "Jaalari"
+                },
+                {
+                    "id": "173",
+                    "value": "Jaiswal"
+                },
+                {
+                    "id": "174",
+                    "value": "Jandra"
+                },
+                {
+                    "id": "175",
+                    "value": "Jangam"
+                },
+                {
+                    "id": "176",
+                    "value": "Jangra - Brahmin"
+                },
+                {
+                    "id": "177",
+                    "value": "Jat"
+                },
+                {
+                    "id": "178",
+                    "value": "Jatav"
+                },
+                {
+                    "id": "179",
+                    "value": "Jetty/Malla"
+                },
+                {
+                    "id": "180",
+                    "value": "Jogi (Nath)"
+                },
+                {
+                    "id": "181",
+                    "value": "Kachara"
+                },
+                {
+                    "id": "182",
+                    "value": "Kadava Patel"
+                },
+                {
+                    "id": "183",
+                    "value": "Kahar"
+                },
+                {
+                    "id": "184",
+                    "value": "Kaibarta"
+                },
+                {
+                    "id": "185",
+                    "value": "Kalal"
+                },
+                {
+                    "id": "186",
+                    "value": "Kalanji"
+                },
+                {
+                    "id": "187",
+                    "value": "Kalar"
+                },
+                {
+                    "id": "188",
+                    "value": "Kalinga"
+                },
+                {
+                    "id": "189",
+                    "value": "Kalinga Vysya"
+                },
+                {
+                    "id": "190",
+                    "value": "Kalita"
+                },
+                {
+                    "id": "191",
+                    "value": "Kalwar"
+                },
+                {
+                    "id": "192",
+                    "value": "Kamboj"
+                },
+                {
+                    "id": "193",
+                    "value": "Kamma"
+                },
+                {
+                    "id": "194",
+                    "value": "Kansari"
+                },
+                {
+                    "id": "195",
+                    "value": "Kapu"
+                },
+                {
+                    "id": "196",
+                    "value": "Karana"
+                },
+                {
+                    "id": "197",
+                    "value": "Karmakar"
+                },
+                {
+                    "id": "198",
+                    "value": "Karuneegar"
+                },
+                {
+                    "id": "199",
+                    "value": "Kasar"
+                },
+                {
+                    "id": "200",
+                    "value": "Kashyap"
+                },
+                {
+                    "id": "201",
+                    "value": "Katiya"
+                },
+                {
+                    "id": "202",
+                    "value": "Kavuthiyya/Ezhavathy"
+                },
+                {
+                    "id": "203",
+                    "value": "Kayastha"
+                },
+                {
+                    "id": "204",
+                    "value": "Khandayat"
+                },
+                {
+                    "id": "205",
+                    "value": "Khandelwal"
+                },
+                {
+                    "id": "206",
+                    "value": "Kharwa"
+                },
+                {
+                    "id": "207",
+                    "value": "Kharwar"
+                },
+                {
+                    "id": "208",
+                    "value": "Khatri"
+                },
+                {
+                    "id": "209",
+                    "value": "Kirar"
+                },
+                {
+                    "id": "210",
+                    "value": "Kokanastha Maratha"
+                },
+                {
+                    "id": "211",
+                    "value": "Koli"
+                },
+                {
+                    "id": "212",
+                    "value": "Koli Mahadev"
+                },
+                {
+                    "id": "213",
+                    "value": "Koli Patel"
+                },
+                {
+                    "id": "214",
+                    "value": "Kongu Vellala Gounder"
+                },
+                {
+                    "id": "215",
+                    "value": "Konkani"
+                },
+                {
+                    "id": "216",
+                    "value": "Korama"
+                },
+                {
+                    "id": "217",
+                    "value": "Kori"
+                },
+                {
+                    "id": "218",
+                    "value": "Kosthi"
+                },
+                {
+                    "id": "219",
+                    "value": "Krishnavaka"
+                },
+                {
+                    "id": "220",
+                    "value": "Kshatriya"
+                },
+                {
+                    "id": "221",
+                    "value": "Kudumbi"
+                },
+                {
+                    "id": "222",
+                    "value": "Kulal"
+                },
+                {
+                    "id": "223",
+                    "value": "Kulalar"
+                },
+                {
+                    "id": "224",
+                    "value": "Kulita"
+                },
+                {
+                    "id": "225",
+                    "value": "Kumawat"
+                },
+                {
+                    "id": "226",
+                    "value": "Kumbhakar"
+                },
+                {
+                    "id": "227",
+                    "value": "Kumbhar"
+                },
+                {
+                    "id": "228",
+                    "value": "Kumhar"
+                },
+                {
+                    "id": "229",
+                    "value": "Kummari"
+                },
+                {
+                    "id": "230",
+                    "value": "Kunbi"
+                },
+                {
+                    "id": "231",
+                    "value": "Kuravan"
+                },
+                {
+                    "id": "232",
+                    "value": "Kurmi"
+                },
+                {
+                    "id": "233",
+                    "value": "Kurmi Kshatriya"
+                },
+                {
+                    "id": "234",
+                    "value": "Kuruba"
+                },
+                {
+                    "id": "235",
+                    "value": "Kuruhina Shetty"
+                },
+                {
+                    "id": "236",
+                    "value": "Kurumbar"
+                },
+                {
+                    "id": "237",
+                    "value": "Kushwaha (Koiri)"
+                },
+                {
+                    "id": "238",
+                    "value": "Kutchi"
+                },
+                {
+                    "id": "239",
+                    "value": "Lambadi"
+                },
+                {
+                    "id": "240",
+                    "value": "Leva patel"
+                },
+                {
+                    "id": "241",
+                    "value": "Leva patil"
+                },
+                {
+                    "id": "242",
+                    "value": "Lingayath"
+                },
+                {
+                    "id": "243",
+                    "value": "Lodhi Rajput"
+                },
+                {
+                    "id": "244",
+                    "value": "Lohana"
+                },
+                {
+                    "id": "245",
+                    "value": "Lohar"
+                },
+                {
+                    "id": "246",
+                    "value": "Loniya"
+                },
+                {
+                    "id": "247",
+                    "value": "Lubana"
+                },
+                {
+                    "id": "248",
+                    "value": "Madiga"
+                },
+                {
+                    "id": "249",
+                    "value": "Mahajan"
+                },
+                {
+                    "id": "250",
+                    "value": "Mahar"
+                },
+                {
+                    "id": "251",
+                    "value": "Mahendra"
+                },
+                {
+                    "id": "252",
+                    "value": "Maheshwari"
+                },
+                {
+                    "id": "253",
+                    "value": "Mahishya"
+                },
+                {
+                    "id": "254",
+                    "value": "Majabi"
+                },
+                {
+                    "id": "255",
+                    "value": "Mala"
+                },
+                {
+                    "id": "256",
+                    "value": "Mali"
+                },
+                {
+                    "id": "257",
+                    "value": "Malla"
+                },
+                {
+                    "id": "258",
+                    "value": "Malviya Brahmin"
+                },
+                {
+                    "id": "259",
+                    "value": "Mangalorean"
+                },
+                {
+                    "id": "260",
+                    "value": "Manipuri"
+                },
+                {
+                    "id": "261",
+                    "value": "Mapila"
+                },
+                {
+                    "id": "262",
+                    "value": "Maratha"
+                },
+                {
+                    "id": "263",
+                    "value": "Maruthuvar"
+                },
+                {
+                    "id": "264",
+                    "value": "Matang"
+                },
+                {
+                    "id": "265",
+                    "value": "Mathur"
+                },
+                {
+                    "id": "266",
+                    "value": "Maurya / Shakya"
+                },
+                {
+                    "id": "267",
+                    "value": "Meena"
+                },
+                {
+                    "id": "268",
+                    "value": "Meenavar"
+                },
+                {
+                    "id": "269",
+                    "value": "Mehra"
+                },
+                {
+                    "id": "270",
+                    "value": "Meru Darji"
+                },
+                {
+                    "id": "271",
+                    "value": "Mochi"
+                },
+                {
+                    "id": "272",
+                    "value": "Modak"
+                },
+                {
+                    "id": "273",
+                    "value": "Mogaveera"
+                },
+                {
+                    "id": "274",
+                    "value": "Mudaliyar"
+                },
+                {
+                    "id": "275",
+                    "value": "Mudiraj"
+                },
+                {
+                    "id": "276",
+                    "value": "Mukkulathor"
+                },
+                {
+                    "id": "277",
+                    "value": "Munnuru Kapu"
+                },
+                {
+                    "id": "278",
+                    "value": "Muthuraja"
+                },
+                {
+                    "id": "279",
+                    "value": "Naagavamsam"
+                },
+                {
+                    "id": "280",
+                    "value": "Nadar"
+                },
+                {
+                    "id": "281",
+                    "value": "Nagaralu"
+                },
+                {
+                    "id": "282",
+                    "value": "Nai"
+                },
+                {
+                    "id": "283",
+                    "value": "Naicker"
+                },
+                {
+                    "id": "284",
+                    "value": "Naidu"
+                },
+                {
+                    "id": "285",
+                    "value": "Naik"
+                },
+                {
+                    "id": "286",
+                    "value": "Nair"
+                },
+                {
+                    "id": "287",
+                    "value": "Nambiar"
+                },
+                {
+                    "id": "288",
+                    "value": "Namosudra"
+                },
+                {
+                    "id": "289",
+                    "value": "Napit"
+                },
+                {
+                    "id": "290",
+                    "value": "Nayaka"
+                },
+                {
+                    "id": "291",
+                    "value": "Neeli"
+                },
+                {
+                    "id": "292",
+                    "value": "Nepali"
+                },
+                {
+                    "id": "293",
+                    "value": "Nhavi"
+                },
+                {
+                    "id": "294",
+                    "value": "Oswal"
+                },
+                {
+                    "id": "295",
+                    "value": "Otari"
+                },
+                {
+                    "id": "296",
+                    "value": "Padmasali"
+                },
+                {
+                    "id": "297",
+                    "value": "Pal"
+                },
+                {
+                    "id": "298",
+                    "value": "Panchal"
+                },
+                {
+                    "id": "299",
+                    "value": "Pandaram"
+                },
+                {
+                    "id": "300",
+                    "value": "Panicker"
+                },
+                {
+                    "id": "301",
+                    "value": "Parkava Kulam"
+                },
+                {
+                    "id": "302",
+                    "value": "Parsi"
+                },
+                {
+                    "id": "303",
+                    "value": "Partraj"
+                },
+                {
+                    "id": "304",
+                    "value": "Pasi"
+                },
+                {
+                    "id": "305",
+                    "value": "Patel"
+                },
+                {
+                    "id": "306",
+                    "value": "Pathare Prabhu"
+                },
+                {
+                    "id": "307",
+                    "value": "Patnaick"
+                },
+                {
+                    "id": "308",
+                    "value": "Patra"
+                },
+                {
+                    "id": "309",
+                    "value": "Perika"
+                },
+                {
+                    "id": "310",
+                    "value": "Pillai"
+                },
+                {
+                    "id": "311",
+                    "value": "Poosala"
+                },
+                {
+                    "id": "312",
+                    "value": "Porwal"
+                },
+                {
+                    "id": "313",
+                    "value": "Prajapati"
+                },
+                {
+                    "id": "314",
+                    "value": "Raigar"
+                },
+                {
+                    "id": "315",
+                    "value": "Rajaka"
+                },
+                {
+                    "id": "316",
+                    "value": "Rajastani"
+                },
+                {
+                    "id": "317",
+                    "value": "Rajbhar"
+                },
+                {
+                    "id": "318",
+                    "value": "Rajbonshi"
+                },
+                {
+                    "id": "319",
+                    "value": "Rajpurohit"
+                },
+                {
+                    "id": "320",
+                    "value": "Rajput"
+                },
+                {
+                    "id": "321",
+                    "value": "Ramanandi"
+                },
+                {
+                    "id": "322",
+                    "value": "Ramdasia"
+                },
+                {
+                    "id": "323",
+                    "value": "Ramgariah"
+                },
+                {
+                    "id": "324",
+                    "value": "Ramoshi"
+                },
+                {
+                    "id": "325",
+                    "value": "Ravidasia"
+                },
+                {
+                    "id": "326",
+                    "value": "Rawat"
+                },
+                {
+                    "id": "327",
+                    "value": "Reddy"
+                },
+                {
+                    "id": "328",
+                    "value": "Relli"
+                },
+                {
+                    "id": "329",
+                    "value": "Ror"
+                },
+                {
+                    "id": "330",
+                    "value": "SC"
+                },
+                {
+                    "id": "331",
+                    "value": "SKP"
+                },
+                {
+                    "id": "332",
+                    "value": "ST"
+                },
+                {
+                    "id": "333",
+                    "value": "Sadgope"
+                },
+                {
+                    "id": "334",
+                    "value": "Saha"
+                },
+                {
+                    "id": "335",
+                    "value": "Sahu"
+                },
+                {
+                    "id": "336",
+                    "value": "Saini"
+                },
+                {
+                    "id": "337",
+                    "value": "Saliya"
+                },
+                {
+                    "id": "338",
+                    "value": "Sathwara"
+                },
+                {
+                    "id": "339",
+                    "value": "Savji"
+                },
+                {
+                    "id": "340",
+                    "value": "Senai Thalaivar"
+                },
+                {
+                    "id": "341",
+                    "value": "Senguntha Mudaliyar"
+                },
+                {
+                    "id": "342",
+                    "value": "Settibalija"
+                },
+                {
+                    "id": "343",
+                    "value": "Shimpi"
+                },
+                {
+                    "id": "344",
+                    "value": "Sindhi"
+                },
+                {
+                    "id": "345",
+                    "value": "Sindhi-Amil"
+                },
+                {
+                    "id": "346",
+                    "value": "Sindhi-Baibhand"
+                },
+                {
+                    "id": "347",
+                    "value": "Sindhi-Bhanusali"
+                },
+                {
+                    "id": "348",
+                    "value": "Sindhi-Bhatia"
+                },
+                {
+                    "id": "349",
+                    "value": "Sindhi-Chhapru"
+                },
+                {
+                    "id": "350",
+                    "value": "Sindhi-Dadu"
+                },
+                {
+                    "id": "351",
+                    "value": "Sindhi-Hyderabadi"
+                },
+                {
+                    "id": "352",
+                    "value": "Sindhi-Larai"
+                },
+                {
+                    "id": "353",
+                    "value": "Sindhi-Larkana"
+                },
+                {
+                    "id": "354",
+                    "value": "Sindhi-Lohana"
+                },
+                {
+                    "id": "355",
+                    "value": "Sindhi-Rohiri"
+                },
+                {
+                    "id": "356",
+                    "value": "Sindhi-Sahiti"
+                },
+                {
+                    "id": "357",
+                    "value": "Sindhi-Sakkhar"
+                },
+                {
+                    "id": "358",
+                    "value": "Sindhi-Sehwani"
+                },
+                {
+                    "id": "359",
+                    "value": "Sindhi-Shikarpuri"
+                },
+                {
+                    "id": "360",
+                    "value": "Sindhi-Thatai"
+                },
+                {
+                    "id": "361",
+                    "value": "Sonar"
+                },
+                {
+                    "id": "362",
+                    "value": "Soni"
+                },
+                {
+                    "id": "363",
+                    "value": "Sourashtra"
+                },
+                {
+                    "id": "364",
+                    "value": "Sozhiya Vellalar"
+                },
+                {
+                    "id": "365",
+                    "value": "Srisayana"
+                },
+                {
+                    "id": "366",
+                    "value": "Sugali (Naika)"
+                },
+                {
+                    "id": "367",
+                    "value": "Sunari"
+                },
+                {
+                    "id": "368",
+                    "value": "Sundhi"
+                },
+                {
+                    "id": "369",
+                    "value": "Surya Balija"
+                },
+                {
+                    "id": "370",
+                    "value": "Suthar"
+                },
+                {
+                    "id": "371",
+                    "value": "Swakula Sali"
+                },
+                {
+                    "id": "372",
+                    "value": "Tamboli"
+                },
+                {
+                    "id": "373",
+                    "value": "Tanti"
+                },
+                {
+                    "id": "374",
+                    "value": "Tantubai"
+                },
+                {
+                    "id": "375",
+                    "value": "Telaga"
+                },
+                {
+                    "id": "376",
+                    "value": "Teli"
+                },
+                {
+                    "id": "377",
+                    "value": "Thakkar"
+                },
+                {
+                    "id": "378",
+                    "value": "Thakore"
+                },
+                {
+                    "id": "379",
+                    "value": "Thakur"
+                },
+                {
+                    "id": "380",
+                    "value": "Thigala"
+                },
+                {
+                    "id": "381",
+                    "value": "Thiyya"
+                },
+                {
+                    "id": "382",
+                    "value": "Tili"
+                },
+                {
+                    "id": "383",
+                    "value": "Togata"
+                },
+                {
+                    "id": "384",
+                    "value": "Tonk Kshatriya"
+                },
+                {
+                    "id": "385",
+                    "value": "Turupu Kapu"
+                },
+                {
+                    "id": "386",
+                    "value": "Uppara"
+                },
+                {
+                    "id": "387",
+                    "value": "Urali Gounder"
+                },
+                {
+                    "id": "388",
+                    "value": "Urs"
+                },
+                {
+                    "id": "389",
+                    "value": "Vada Balija"
+                },
+                {
+                    "id": "390",
+                    "value": "Vaddera"
+                },
+                {
+                    "id": "391",
+                    "value": "Vaish"
+                },
+                {
+                    "id": "392",
+                    "value": "Vaishnav"
+                },
+                {
+                    "id": "393",
+                    "value": "Vaishnava"
+                },
+                {
+                    "id": "394",
+                    "value": "Vaishya"
+                },
+                {
+                    "id": "395",
+                    "value": "Vaishya Vani"
+                },
+                {
+                    "id": "396",
+                    "value": "Valluvan"
+                },
+                {
+                    "id": "397",
+                    "value": "Valmiki"
+                },
+                {
+                    "id": "398",
+                    "value": "Vania"
+                },
+                {
+                    "id": "399",
+                    "value": "Vanika Vyshya"
+                },
+                {
+                    "id": "400",
+                    "value": "Vaniya"
+                },
+                {
+                    "id": "401",
+                    "value": "Vanjara"
+                },
+                {
+                    "id": "402",
+                    "value": "Vanjari"
+                },
+                {
+                    "id": "403",
+                    "value": "Vankar"
+                },
+                {
+                    "id": "404",
+                    "value": "Vannar"
+                },
+                {
+                    "id": "405",
+                    "value": "Vannia Kula Kshatriyar"
+                },
+                {
+                    "id": "406",
+                    "value": "Variar"
+                },
+                {
+                    "id": "407",
+                    "value": "Varshney"
+                },
+                {
+                    "id": "408",
+                    "value": "Veera Saivam"
+                },
+                {
+                    "id": "409",
+                    "value": "Velaan"
+                },
+                {
+                    "id": "410",
+                    "value": "Velama"
+                },
+                {
+                    "id": "411",
+                    "value": "Vellalar"
+                },
+                {
+                    "id": "412",
+                    "value": "Veluthedathu Nair"
+                },
+                {
+                    "id": "413",
+                    "value": "Vettuva Gounder"
+                },
+                {
+                    "id": "414",
+                    "value": "Vilakkithala Nair"
+                },
+                {
+                    "id": "415",
+                    "value": "Viswabrahmin"
+                },
+                {
+                    "id": "416",
+                    "value": "Viswakarma"
+                },
+                {
+                    "id": "417",
+                    "value": "Vokkaliga"
+                },
+                {
+                    "id": "418",
+                    "value": "Vysya"
+                },
+                {
+                    "id": "419",
+                    "value": "Yadav"
+                },
+                {
+                    "id": "420",
+                    "value": "Yellapu"
+                },
+                {
+                    "id": "421",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "value": "Muslim",
+            "castealias": "Sect",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "1",
+                    "value": "Muslim - Ansari"
+                },
+                {
+                    "id": "2",
+                    "value": "Muslim - Arain"
+                },
+                {
+                    "id": "3",
+                    "value": "Muslim - Awan"
+                },
+                {
+                    "id": "4",
+                    "value": "Alavi - Bohra"
+                },
+                {
+                    "id": "5",
+                    "value": "Muslim - Dakhini"
+                },
+                {
+                    "id": "6",
+                    "value": "Muslim - Dudekula"
+                },
+                {
+                    "id": "7",
+                    "value": "Muslim - Hanafi"
+                },
+                {
+                    "id": "8",
+                    "value": "Muslim - Jat"
+                },
+                {
+                    "id": "9",
+                    "value": "Muslim - Khoja"
+                },
+                {
+                    "id": "10",
+                    "value": "Muslim - Labbay"
+                },
+                {
+                    "id": "11",
+                    "value": "Muslim - Malik"
+                },
+                {
+                    "id": "12",
+                    "value": "Muslim - Mappila"
+                },
+                {
+                    "id": "13",
+                    "value": "Muslim - Marakayar"
+                },
+                {
+                    "id": "14",
+                    "value": "Muslim - Memon"
+                },
+                {
+                    "id": "15",
+                    "value": "Muslim - Mughal"
+                },
+                {
+                    "id": "16",
+                    "value": "Muslim - Pathan"
+                },
+                {
+                    "id": "17",
+                    "value": "Muslim - Qureshi"
+                },
+                {
+                    "id": "18",
+                    "value": "Muslim - Rajput"
+                },
+                {
+                    "id": "19",
+                    "value": "Muslim - Rowther"
+                },
+                {
+                    "id": "20",
+                    "value": "Muslim - Shafi"
+                },
+                {
+                    "id": "21",
+                    "value": "Muslim - Sheikh"
+                },
+                {
+                    "id": "22",
+                    "value": "Muslim - Siddiqui"
+                },
+                {
+                    "id": "23",
+                    "value": "Muslim - Syed"
+                },
+                {
+                    "id": "24",
+                    "value": "Muslim - UnSpecified"
+                },
+                {
+                    "id": "25",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "value": "Muslim - Shia",
+            "castealias": "Sect",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "1",
+                    "value": "Shia Isma'ilis (Seveners)"
+                },
+                {
+                    "id": "2",
+                    "value": "Shia Ithna Asharis (Twelvers)"
+                },
+                {
+                    "id": "3",
+                    "value": "Shia Zaidis (Fivers)"
+                },
+                {
+                    "id": "4",
+                    "value": "Muslim - Ansari"
+                },
+                {
+                    "id": "5",
+                    "value": "Muslim - Arain"
+                },
+                {
+                    "id": "6",
+                    "value": "Muslim - Awan"
+                },
+                {
+                    "id": "7",
+                    "value": "Alavi - Bohra"
+                },
+                {
+                    "id": "8",
+                    "value": "Muslim - Dakhini"
+                },
+                {
+                    "id": "9",
+                    "value": "Muslim - Dudekula"
+                },
+                {
+                    "id": "10",
+                    "value": "Muslim - Hanafi"
+                },
+                {
+                    "id": "11",
+                    "value": "Muslim - Jat"
+                },
+                {
+                    "id": "12",
+                    "value": "Muslim - Khoja"
+                },
+                {
+                    "id": "13",
+                    "value": "Muslim - Labbay"
+                },
+                {
+                    "id": "14",
+                    "value": "Muslim - Malik"
+                },
+                {
+                    "id": "15",
+                    "value": "Muslim - Mappila"
+                },
+                {
+                    "id": "16",
+                    "value": "Muslim - Marakayar"
+                },
+                {
+                    "id": "17",
+                    "value": "Muslim - Memon"
+                },
+                {
+                    "id": "18",
+                    "value": "Muslim - Mughal"
+                },
+                {
+                    "id": "19",
+                    "value": "Muslim - Pathan"
+                },
+                {
+                    "id": "20",
+                    "value": "Muslim - Qureshi"
+                },
+                {
+                    "id": "21",
+                    "value": "Muslim - Rajput"
+                },
+                {
+                    "id": "22",
+                    "value": "Muslim - Rowther"
+                },
+                {
+                    "id": "23",
+                    "value": "Muslim - Shafi"
+                },
+                {
+                    "id": "24",
+                    "value": "Muslim - Sheikh"
+                },
+                {
+                    "id": "25",
+                    "value": "Muslim - Siddiqui"
+                },
+                {
+                    "id": "26",
+                    "value": "Muslim - Syed"
+                },
+                {
+                    "id": "27",
+                    "value": "Muslim - UnSpecified"
+                },
+                {
+                    "id": "28",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "value": "Muslim - Sunni",
+            "castealias": "Sect",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "1",
+                    "value": "Sunni Hanabali"
+                },
+                {
+                    "id": "2",
+                    "value": "Sunni Hanafi"
+                },
+                {
+                    "id": "3",
+                    "value": "Sunni Maliki"
+                },
+                {
+                    "id": "4",
+                    "value": "Sunni Shafii"
+                },
+                {
+                    "id": "5",
+                    "value": "Muslim - Ansari"
+                },
+                {
+                    "id": "6",
+                    "value": "Muslim - Arain"
+                },
+                {
+                    "id": "7",
+                    "value": "Muslim - Awan"
+                },
+                {
+                    "id": "8",
+                    "value": "Alavi - Bohra"
+                },
+                {
+                    "id": "9",
+                    "value": "Muslim - Dakhini"
+                },
+                {
+                    "id": "10",
+                    "value": "Muslim - Dudekula"
+                },
+                {
+                    "id": "11",
+                    "value": "Muslim - Hanafi"
+                },
+                {
+                    "id": "12",
+                    "value": "Muslim - Jat"
+                },
+                {
+                    "id": "13",
+                    "value": "Muslim - Khoja"
+                },
+                {
+                    "id": "14",
+                    "value": "Muslim - Labbay"
+                },
+                {
+                    "id": "15",
+                    "value": "Muslim - Malik"
+                },
+                {
+                    "id": "16",
+                    "value": "Muslim - Mappila"
+                },
+                {
+                    "id": "17",
+                    "value": "Muslim - Marakayar"
+                },
+                {
+                    "id": "18",
+                    "value": "Muslim - Memon"
+                },
+                {
+                    "id": "19",
+                    "value": "Muslim - Mughal"
+                },
+                {
+                    "id": "20",
+                    "value": "Muslim - Pathan"
+                },
+                {
+                    "id": "21",
+                    "value": "Muslim - Qureshi"
+                },
+                {
+                    "id": "22",
+                    "value": "Muslim - Rajput"
+                },
+                {
+                    "id": "23",
+                    "value": "Muslim - Rowther"
+                },
+                {
+                    "id": "24",
+                    "value": "Muslim - Shafi"
+                },
+                {
+                    "id": "25",
+                    "value": "Muslim - Sheikh"
+                },
+                {
+                    "id": "26",
+                    "value": "Muslim - Siddiqui"
+                },
+                {
+                    "id": "27",
+                    "value": "Muslim - Syed"
+                },
+                {
+                    "id": "28",
+                    "value": "Muslim - UnSpecified"
+                },
+                {
+                    "id": "29",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "value": "Christian",
+            "castealias": "Denomination",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "1",
+                    "value": "Adventist"
+                },
+                {
+                    "id": "2",
+                    "value": "Anglican / Episcopal"
+                },
+                {
+                    "id": "3",
+                    "value": "Apostolic"
+                },
+                {
+                    "id": "4",
+                    "value": "Assyrian"
+                },
+                {
+                    "id": "5",
+                    "value": "Assembly of God (AG)"
+                },
+                {
+                    "id": "6",
+                    "value": "Baptist"
+                },
+                {
+                    "id": "7",
+                    "value": "Calvinist"
+                },
+                {
+                    "id": "8",
+                    "value": "Christian - Born Again"
+                },
+                {
+                    "id": "9",
+                    "value": "Christian - Bretheren"
+                },
+                {
+                    "id": "10",
+                    "value": "Christian - Church of South India"
+                },
+                {
+                    "id": "11",
+                    "value": "Christian - Evangelist"
+                },
+                {
+                    "id": "12",
+                    "value": "Christian - Jacobite"
+                },
+                {
+                    "id": "13",
+                    "value": "Christian - Knanaya"
+                },
+                {
+                    "id": "14",
+                    "value": "Christian - Knanaya Catholic"
+                },
+                {
+                    "id": "15",
+                    "value": "Christian - Knanaya Jacobite"
+                },
+                {
+                    "id": "16",
+                    "value": "Christian - Latin Catholic"
+                },
+                {
+                    "id": "17",
+                    "value": "Christian - Malankara"
+                },
+                {
+                    "id": "18",
+                    "value": "Christian - Marthoma"
+                },
+                {
+                    "id": "19",
+                    "value": "Christian - Pentacost"
+                },
+                {
+                    "id": "20",
+                    "value": "Christian - Roman Catholic"
+                },
+                {
+                    "id": "21",
+                    "value": "Christian - Syrian Catholic"
+                },
+                {
+                    "id": "22",
+                    "value": "Christian - Syrian Jacobite"
+                },
+                {
+                    "id": "23",
+                    "value": "Christian - Syrian Orthodox"
+                },
+                {
+                    "id": "24",
+                    "value": "Christian - Syro Malabar"
+                },
+                {
+                    "id": "25",
+                    "value": "Christian - Unspecified"
+                },
+                {
+                    "id": "26",
+                    "value": "Church of God"
+                },
+                {
+                    "id": "27",
+                    "value": "Church of Christ"
+                },
+                {
+                    "id": "28",
+                    "value": "Church of North India"
+                },
+                {
+                    "id": "29",
+                    "value": "Congregational"
+                },
+                {
+                    "id": "30",
+                    "value": "East Indian Catholic"
+                },
+                {
+                    "id": "31",
+                    "value": "Jehovah's Witnesses"
+                },
+                {
+                    "id": "32",
+                    "value": "Latter day saints"
+                },
+                {
+                    "id": "33",
+                    "value": "Lutheran"
+                },
+                {
+                    "id": "34",
+                    "value": "Melkite"
+                },
+                {
+                    "id": "35",
+                    "value": "Malabar Independent Syrian Church"
+                },
+                {
+                    "id": "36",
+                    "value": "Mennonite"
+                },
+                {
+                    "id": "37",
+                    "value": "Methodist"
+                },
+                {
+                    "id": "38",
+                    "value": "Moravian"
+                },
+                {
+                    "id": "39",
+                    "value": "Protestant"
+                },
+                {
+                    "id": "40",
+                    "value": "Presbyterian"
+                },
+                {
+                    "id": "41",
+                    "value": "Seventh-day Adventist"
+                },
+                {
+                    "id": "42",
+                    "value": "Reformed Baptist"
+                },
+                {
+                    "id": "43",
+                    "value": "Reformed Presbyterian"
+                },
+                {
+                    "id": "44",
+                    "value": "Knanaya"
+                },
+                {
+                    "id": "45",
+                    "value": "Knanaya Catholic"
+                },
+                {
+                    "id": "46",
+                    "value": "Knanaya Jacobite"
+                },
+                {
+                    "id": "47",
+                    "value": "St. Thomas Evangelical"
+                },
+                {
+                    "id": "48",
+                    "value": "Syrian Jacobite"
+                },
+                {
+                    "id": "49",
+                    "value": "Syrian Orthodox"
+                },
+                {
+                    "id": "50",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "value": "Sikh",
+            "castealias": "Caste",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "1",
+                    "value": "Sikh - Ahluwalia"
+                },
+                {
+                    "id": "2",
+                    "value": "Sikh - Arora"
+                },
+                {
+                    "id": "3",
+                    "value": "Sikh - Bhatia"
+                },
+                {
+                    "id": "4",
+                    "value": "Sikh - Ghumar"
+                },
+                {
+                    "id": "5",
+                    "value": "Sikh - Intercaste"
+                },
+                {
+                    "id": "6",
+                    "value": "Sikh - Jat"
+                },
+                {
+                    "id": "7",
+                    "value": "Sikh - Kamboj"
+                },
+                {
+                    "id": "8",
+                    "value": "Sikh - Khatri"
+                },
+                {
+                    "id": "9",
+                    "value": "Sikh - Kshatriya"
+                },
+                {
+                    "id": "10",
+                    "value": "Sikh - Lubana"
+                },
+                {
+                    "id": "11",
+                    "value": "Sikh - Majabi"
+                },
+                {
+                    "id": "12",
+                    "value": "Sikh - Nai"
+                },
+                {
+                    "id": "13",
+                    "value": "Sikh - No Bar"
+                },
+                {
+                    "id": "14",
+                    "value": "Sikh - Rajput"
+                },
+                {
+                    "id": "15",
+                    "value": "Sikh - Ramdasia"
+                },
+                {
+                    "id": "16",
+                    "value": "Sikh - Ramgharia"
+                },
+                {
+                    "id": "17",
+                    "value": "Sikh - Saini"
+                },
+                {
+                    "id": "18",
+                    "value": "Sikh - Ravidasia"
+                },
+                {
+                    "id": "19",
+                    "value": "Sikh - Bhatra"
+                },
+                {
+                    "id": "20",
+                    "value": "Sikh - Tonk Kshatriya"
+                },
+                {
+                    "id": "21",
+                    "value": "Sikh - Unspecified"
+                },
+                {
+                    "id": "22",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "value": "Jain - All",
+            "castealias": "Caste",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "1",
+                    "value": "Jain - Agarwal"
+                },
+                {
+                    "id": "2",
+                    "value": "Jain - Bania"
+                },
+                {
+                    "id": "3",
+                    "value": "Jain - Intercaste"
+                },
+                {
+                    "id": "4",
+                    "value": "Jain - Jaiswal"
+                },
+                {
+                    "id": "5",
+                    "value": "Jain - Khandelwal"
+                },
+                {
+                    "id": "6",
+                    "value": "Jain - Kutchi"
+                },
+                {
+                    "id": "7",
+                    "value": "Jain - No Bar"
+                },
+                {
+                    "id": "8",
+                    "value": "Jain - Oswal"
+                },
+                {
+                    "id": "9",
+                    "value": "Jain - Porwal"
+                },
+                {
+                    "id": "10",
+                    "value": "Jain - Unspecified"
+                },
+                {
+                    "id": "11",
+                    "value": "Jain - Vaishya"
+                },
+                {
+                    "id": "12",
+                    "value": "Jain - KVO"
+                },
+                {
+                    "id": "13",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "value": "Jain - Digambar",
+            "castealias": "Caste",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "1",
+                    "value": "Digambar-Bisapanthi"
+                },
+                {
+                    "id": "2",
+                    "value": "Digambar-Gumanapanthi"
+                },
+                {
+                    "id": "3",
+                    "value": "Digambar-Taranapanthi"
+                },
+                {
+                    "id": "4",
+                    "value": "Digambar-Terapanthi"
+                },
+                {
+                    "id": "5",
+                    "value": "Digambar-Totapanthi"
+                },
+                {
+                    "id": "6",
+                    "value": "Jain - Agarwal"
+                },
+                {
+                    "id": "7",
+                    "value": "Jain - Bania"
+                },
+                {
+                    "id": "8",
+                    "value": "Jain - Intercaste"
+                },
+                {
+                    "id": "9",
+                    "value": "Jain - Jaiswal"
+                },
+                {
+                    "id": "10",
+                    "value": "Jain - Khandelwal"
+                },
+                {
+                    "id": "11",
+                    "value": "Jain - Kutchi"
+                },
+                {
+                    "id": "12",
+                    "value": "Jain - No Bar"
+                },
+                {
+                    "id": "13",
+                    "value": "Jain - Oswal"
+                },
+                {
+                    "id": "14",
+                    "value": "Jain - Porwal"
+                },
+                {
+                    "id": "15",
+                    "value": "Jain - Unspecified"
+                },
+                {
+                    "id": "16",
+                    "value": "Jain - Vaishya"
+                },
+                {
+                    "id": "17",
+                    "value": "Jain - KVO"
+                },
+                {
+                    "id": "18",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "value": "Jain - Shwetambar",
+            "castealias": "Caste",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "1",
+                    "value": "Shvetambar-Murtipujaka"
+                },
+                {
+                    "id": "2",
+                    "value": "Shvetambar-Sthanakvasi"
+                },
+                {
+                    "id": "3",
+                    "value": "Shvetambar-Terapanthi"
+                },
+                {
+                    "id": "4",
+                    "value": "Jain - Agarwal"
+                },
+                {
+                    "id": "5",
+                    "value": "Jain - Bania"
+                },
+                {
+                    "id": "6",
+                    "value": "Jain - Intercaste"
+                },
+                {
+                    "id": "7",
+                    "value": "Jain - Jaiswal"
+                },
+                {
+                    "id": "8",
+                    "value": "Jain - Khandelwal"
+                },
+                {
+                    "id": "9",
+                    "value": "Jain - Kutchi"
+                },
+                {
+                    "id": "10",
+                    "value": "Jain - No Bar"
+                },
+                {
+                    "id": "11",
+                    "value": "Jain - Oswal"
+                },
+                {
+                    "id": "12",
+                    "value": "Jain - Porwal"
+                },
+                {
+                    "id": "13",
+                    "value": "Jain - Unspecified"
+                },
+                {
+                    "id": "14",
+                    "value": "Jain - Vaishya"
+                },
+                {
+                    "id": "15",
+                    "value": "Jain - KVO"
+                },
+                {
+                    "id": "16",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "value": "Parsi",
+            "castealias": "Caste",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "1",
+                    "value": "Irani"
+                },
+                {
+                    "id": "2",
+                    "value": "Parsi"
+                },
+                {
+                    "id": "3",
+                    "value": "Intercaste"
+                },
+                {
+                    "id": "4",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "value": "Buddhist",
+            "castealias": "Branch",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "1",
+                    "value": "Mahayana"
+                },
+                {
+                    "id": "2",
+                    "value": "Nichiren Buddhism"
+                },
+                {
+                    "id": "3",
+                    "value": "Pure Land Buddhism"
+                },
+                {
+                    "id": "4",
+                    "value": "Tantrayana (Vajrayana Tibetan)"
+                },
+                {
+                    "id": "5",
+                    "value": "Theravada (Hinayana)"
+                },
+                {
+                    "id": "6",
+                    "value": "Tendai Buddhism (Japanese)"
+                },
+                {
+                    "id": "7",
+                    "value": "Zen Buddhism (China)"
+                },
+                {
+                    "id": "8",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "value": "Jewish",
+            "castealias": "Caste",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "0",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "value": "Inter-Religion",
+            "castealias": "Caste",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "0",
+                    "value": "Others"
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "value": "No Religious Belief",
+            "castealias": "Caste",
+            "castes": [
+                {
+                    "id": "0",
+                    "value": "-- Select --"
+                },
+                {
+                    "id": "0",
+                    "value": "Others"
+                }
+            ]
+        }
+    ]
+}

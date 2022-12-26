@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "expo-marriageorbit",
-    "slug": "expo-marriageorbit",
-    "version": "1.0.0",
+    "name": "marriageorbit",
+    "slug": "marriageorbit",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,9 +18,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.marriage.marriageorbit",
+      "buildNumber": "1.0.3"
     },
     "android": {
+      "package": "com.marriage.marriageorbit",
+      "versionCode": 4,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -28,6 +32,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5bd42fa8-7902-4ee3-972d-d42b466b0668"
+      }
     }
   }
 }

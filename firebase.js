@@ -19,7 +19,7 @@ const storage = getStorage(firebaseApp);
 const auth = firebase.auth()
 const db = firebaseApp.firestore()
 export {auth , db ,storage}
-export const createUserCollecton =async(user,additionalData)=>{
+export const createUserCollecton = async(user,additionalData)=>{
   if(!user) return;
   const userRef = db.doc(`users/${user.uid}`);
   const snapshot = await userRef.get();

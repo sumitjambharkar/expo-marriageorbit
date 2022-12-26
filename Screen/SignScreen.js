@@ -1,14 +1,22 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
 import DateField from "react-native-datefield";
 import { auth, createUserCollecton } from "../firebase";
 import { SafeAreaView, View, Text, StyleSheet, TextInput, ScrollView } from "react-native";
-import SelectDropdown from "react-native-select-dropdown";
 import { TouchableOpacity } from "react-native";
+import {SelectList} from 'react-native-dropdown-select-list';
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
-const isProfile = ["My Son", "My Self", "My Daughter", "My Sister","My Brother"];
-const isGender = ["Male","Female"]
+const isProfile = [
+  {key: 'My Son', value: 'My Son'},
+  {key: 'My Self', value: 'My Self'},
+  {key: 'My Daughter', value: 'My Daughter'},
+  {key: 'My Sister', value: 'My Sister'},
+  {key: 'My Brother', value: 'My Brother'},
+];
+const isGender = [{value:"Male"},{value:"Female"}]
 const SignScreen = () => {
+  
   const [profile, setProfile] = useState("");
   const [err, setErr] = useState("");
   const [displayName, setDisplayName] = useState("");
@@ -34,12 +42,31 @@ const SignScreen = () => {
         gender,
         profile,
       });
+      await AsyncStorage.setItem('userName',JSON.stringify(user))
       navigation.navigate("Personal Details");
     } catch (err) {
       navigation.navigate("SignUp");
       setErr("email already exists");
     }
   };
+
+  useEffect(() => {
+    betData()
+  }, [])
+
+  const betData = async () => {
+    try {
+      const value = await AsyncStorage.getItem('userName')
+      if(value) {
+        navigation.navigate("Personal Details");
+      }
+    } catch(e) {
+      // error reading value
+      console.log(e);
+    }
+  }
+
+
   return (
     <SafeAreaView>
     <ScrollView>
@@ -48,23 +75,12 @@ const SignScreen = () => {
         <Text style={styles.sign}>Sign up to continue!</Text>
         <Text style={{ color: "red" }}>{err}</Text>
         <View>
-          <SelectDropdown
-            defaultButtonText={"Profile For"}
-            data={isProfile}
-            disableAutoScroll={true}
-            buttonTextStyle={{ color: "#494B4D" }}
-            buttonStyle={{
-              borderColor: "#ccc",
-              borderWidth: 1,
-              width: "100%",
-              borderRadius: 6,
-              height: 45,
-            }}
-            value={profile}
-            onSelect={(item) => {
-              setProfile(item);
-            }}
-          />
+          <SelectList
+              boxStyles={{borderColor: '#ccc'}}
+              placeholder="Select Profile For"
+              setSelected={setProfile}
+              data={isProfile}
+            />
           <Text style={styles.label}>Full Name</Text>
           <TextInput
             style={styles.input}
@@ -74,23 +90,12 @@ const SignScreen = () => {
             type="text"
           />
           <Text style={styles.label}>Gender</Text>
-          <SelectDropdown
-            defaultButtonText={"Choose Gender"}
-            value={gender}
-            data={isGender}
-            disableAutoScroll={true}
-            buttonTextStyle={{ color: "#494B4D" }}
-            buttonStyle={{
-              borderColor: "#ccc",
-              borderWidth: 1,
-              width: "100%",
-              borderRadius: 6,
-              height: 45,
-            }}
-            onSelect={(item) => {
-              setGender(item);
-            }}
-          />
+          <SelectList
+              boxStyles={{borderColor: '#ccc'}}
+              placeholder="Select Gender"
+              setSelected={setGender}
+              data={isGender}
+            />
           <Text style={styles.label}>Mobile No</Text>
           <TextInput
             style={styles.input}
@@ -98,20 +103,15 @@ const SignScreen = () => {
             onChangeText={(itemName) => setNumber(itemName)}
             placeholder="Number"
             keyboardType="numeric"
+            maxLength={10}
           />
           <Text style={styles.label}>Birth Date</Text>
           <DateField
             labelDate="Day"
             labelMonth="Month"
             labelYear="Year"
-            containerStyle={{
-              borderWidth: 1,
-              borderColor: "#ccc",
-              height: 45,
-              borderRadius: 4,
-              padding: 8,
-            }}
             value={birthDate}
+            styleInput={styles.inputBorder}
             onSubmit={(textBirth) => setBirthDate(textBirth)}
           />
           <Text style={styles.label}>Email</Text>
@@ -120,7 +120,7 @@ const SignScreen = () => {
             value={email}
             onChangeText={(itemName) => setEmail(itemName)}
             placeholder="Email"
-            type="text"
+            type="email"
           />
           <Text style={styles.label}>Password</Text>
           <TextInput
@@ -128,7 +128,8 @@ const SignScreen = () => {
             value={password}
             onChangeText={(itemName) => setPassword(itemName)}
             placeholder="password"
-            type="text"
+            secureTextEntry={true}
+            
           />
           <TouchableOpacity onPress={getData}>
             <Text style={styles.button}>Sign Up</Text>
@@ -175,7 +176,7 @@ const styles = StyleSheet.create({
     margin: 16,
   },
   button: {
-    backgroundColor: "orange",
+    backgroundColor: "#df2349",
     textAlign: "center",
     padding: 12,
     borderRadius: 8,
@@ -188,5 +189,13 @@ const styles = StyleSheet.create({
     borderColor: "green",
     width: 200,
     backgroundColor: "red",
+
+  },
+  inputBorder: {
+    width: '30%',
+    borderRadius: 8,
+    borderColor: '#ccc',
+    borderWidth: 1,
+    padding:6,
   },
 });

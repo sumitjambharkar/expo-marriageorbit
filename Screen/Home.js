@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { BottomNavigation,DefaultTheme} from 'react-native-paper';
 import Chat from './Chat';
 import Matches from './Matches';
@@ -12,16 +12,18 @@ const ChatRoute = () => <Chat/>
 
 const theme = {
     ...DefaultTheme,
-    roundness: 2,
+    roundness: 2, 
     colors: {
       ...DefaultTheme.colors,
-      primary: '#FFA500',
+      primary: '#df2349',
       accent: 'white',
     },
   };
 
 const Home = () => {
+  
   const [index, setIndex] = React.useState(0);
+  
   const [routes] = React.useState([
     { key: 'Home', title: 'Home', icon: 'home' },
     { key: 'Matches', title: 'Matches', icon: 'album' },
@@ -33,6 +35,7 @@ const Home = () => {
     Matches:MatchesRoute,
     Chat:ChatRoute,
   });
+
 
   return (
      

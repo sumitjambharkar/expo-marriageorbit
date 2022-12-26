@@ -42,46 +42,40 @@ const User = ({doc,birth}) => {
 const styles = StyleSheet.create({
     details : {
         position:"absolute",
-        paddingTop:30,
-        paddingBottom:6,
-        bottom:0,
+        padding:10,
         width:"100%",
         height: "100%",
-        borderBottomLeftRadius:24,
-        borderBottomRightRadius:24,
         opacity:0.9,
-      
-    
+        backgroundColor:"#df2349"
     },
     image : {
         height:"100%",
         width:"100%",
         resizeMode:"cover",
         position:"relative",
-        borderTopRightRadius:24,
-        borderTopLeftRadius:24,
-
+        borderRadius:24,
+        
     },
     title : {
         fontSize:24,
         fontWeight:"bold",
-        color:"#FFA500"
+        color:"white"
     },
     text : {
         fontSize:18,
         fontWeight:"bold",
-        color:"#FFA500"
+        color:"white"
     },
     card : {
         paddingLeft:"5%",
         paddingTop:"5%",
-        backgroundColor:"black",
+        backgroundColor:"#df2349",
         height:"30%",
         borderBottomLeftRadius:24,
         borderBottomRightRadius:24
     },
     online : {
-        backgroundColor:"#34eb52",
+        backgroundColor:"#white",
         borderRadius:70,
         width:10,
         height:10,

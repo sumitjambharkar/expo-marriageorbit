@@ -4,6 +4,7 @@
     "slug": "marriageorbit",
     "version": "1.0.3",
     "orientation": "portrait",
+    "scheme": "marriageorbit",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {

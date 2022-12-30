@@ -38,7 +38,7 @@ const Matches = () => {
 
   const cit = sta[0]?.states.filter((doc) => doc.value === state)
 
-  const castes = rel.religion.filter((doc) => doc.value === religion)
+  const cast = rel.religion.filter((doc) => doc.value === religion)
 
   const sendFiltter = () => {
     setShow(true)
@@ -172,7 +172,7 @@ const Matches = () => {
                         boxStyles={{ borderColor: '#ccc' }}
                         placeholder="Select Caste"
                         setSelected={setCaste}
-                        data={castes[0]?.castes}
+                        data={cast[0]?.castes || ""}
 
                       />
                       <Text style={styles.label}>Select Age</Text>

@@ -1,7 +1,10 @@
-import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut } from 'firebase/auth';
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import { signInWithPopup, createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut, GoogleAuthProvider } from 'firebase/auth';
+import React, { createContext, useContext, useEffect, useState,Button } from 'react';
 import { auth, db } from '../firebase';
 import AsyncStorage from "@react-native-async-storage/async-storage";
+
+
+
 const AuthContext = createContext({});
 
 export const AuthProvider = ({ children }) => {
@@ -11,10 +14,15 @@ export const AuthProvider = ({ children }) => {
   const signUp = (email, password) => {
     return createUserWithEmailAndPassword(auth, email, password);
   };
-  const login = async (email, password) => {
+  const login = (email, password) => {
     return signInWithEmailAndPassword(auth, email, password)
 
   };
+
+  const signInWithGoogle =  () => {
+    
+
+  }
 
   const logout = async () => {
     try {
@@ -26,6 +34,8 @@ export const AuthProvider = ({ children }) => {
       console.error(e)
     }
   }
+
+  
 
   useEffect(() => {
     getData()
@@ -60,7 +70,8 @@ export const AuthProvider = ({ children }) => {
       currentUser,
       signUp,
       login,
-      logout
+      logout,
+      signInWithGoogle
     }}>
       {children}
     </AuthContext.Provider>

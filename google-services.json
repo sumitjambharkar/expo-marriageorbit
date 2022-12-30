@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "657323529084",
+    "firebase_url": "https://marrigeorbit-8a552-default-rtdb.firebaseio.com",
+    "project_id": "marrigeorbit-8a552",
+    "storage_bucket": "marrigeorbit-8a552.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657323529084:android:bc0165ff5aa4b3b9de4af9",
+        "android_client_info": {
+          "package_name": "com.marriage.marriageorbit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657323529084-ub45tq20d5ol364s13i44hipdc6kkinc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marriage.marriageorbit",
+            "certificate_hash": "5a40b8cee9e44339ff983d66deb1ea8621a18fd5"
+          }
+        },
+        {
+          "client_id": "657323529084-42vd1md0o469ds8c85or9tvq956svn5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFW-Zx6_IACxK9mRy0GWO6BRYPosCRQuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657323529084-42vd1md0o469ds8c85or9tvq956svn5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
